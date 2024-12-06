@@ -5,7 +5,7 @@ import numpy as np
 from ultralytics import YOLO  # Adjust this to your model's library
 
 # Load your model (replace 'best.pt' with your trained model file)
-MODEL_PATH = "C:/Users/Prathamesh/OneDrive/Desktop/MAJOR/DL_project/best1.pt"  # Update the path to your YOLO model weights
+MODEL_PATH = "best1.pt"  # Update the path to your YOLO model weights
 model = YOLO(MODEL_PATH)
 
 # App title and description
